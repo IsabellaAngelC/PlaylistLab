@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8ccde;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  custom-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  custom-card h1 {
+    font-size: 24px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  custom-card input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  custom-card input[type="file"] {
+    border: none;
+    padding: 0;
+  }
+  
+  custom-card button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  custom-card button:hover {
+    background-color: #ff4d4d;
+  }
+  
+  
+  custom-songs section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  custom-songs img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  custom-songs h1 {
+    font-size: 20px;
+    color: #ff6b6b;
+    margin-bottom: 10px;
+  }
+  
+  custom-songs p {
+    margin: 5px 0;
+  }
+  
